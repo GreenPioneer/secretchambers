@@ -1,0 +1,20 @@
+
+User-agent: *
+Disallow: /*admin/
+Disallow: /*conversation/
+Disallow: /*conversations/
+Disallow: /*flash/
+Disallow: /*format/
+Disallow: /*search/
+Disallow: /*util/
+Disallow: /*webslices/
+Disallow: /*print?id
+Disallow: /ad/
+Disallow: /cgi
+Disallow: /community/
+Disallow: /api/
+
+
+
+
+Sitemap: http://www.tallerconcpets.com/demo/secretchambers/

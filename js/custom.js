@@ -1,25 +1,4 @@
-var appMaster = {
-	menuToggler: function(){
-		// Menu Toggler
-	
-		$('#closeToggle').on('click', function(e) {
-	    	e.preventDefault();
-	    	/* Act on the event */
-	    	$('#wrapper').toggleClass('toggled');
-	    	$('#menuToggler' ).toggleClass( "hide" );
-	    });
-	    $('#menuToggler').on('click', function(e) {
-	    	e.preventDefault();
-	    	/* Act on the event */
-	    	$('#wrapper').toggleClass('toggled');
-	    	$('#menuToggler' ).toggleClass( "hide" );
-	    });
-
-	    
-	},
-	anotherFunction: function(){
-		// Add you custom here and don't forget to change the object title (anotherFunction)
-	},
+var SecretChambers = {
 	setHomeScreen:function(){
 		$(".screen-height").height($(window).height());
 
@@ -39,8 +18,49 @@ var appMaster = {
 				scrollTop: $(anchor.attr('href')).offset().top
 			}, 1000);
 			e.preventDefault();
-			$('#wrapper').addClass('toggled');
 		});
 
+	},
+	windowBindScroll:function(){
+		if ($(window).scrollTop() > $(window).height()) {
+                $('nav').addClass('scrolled');
+                $('.scroll-up').fadeIn();
+                $('#headerlogo').show();
+                $('#mainlogo').hide();
+
+            } else {
+                $('nav').removeClass('scrolled');
+                $('.scroll-up').fadeOut();
+                $('#mainlogo').show();
+                $('#headerlogo').hide();
+        }
+		$(window).bind('scroll', function () {
+            if ($(window).scrollTop() > $(window).height()) {
+                $('nav').addClass('scrolled');
+                $('.scroll-up').fadeIn();
+                $('#headerlogo').show();
+                $('#mainlogo').hide();
+
+            } else {
+                $('nav').removeClass('scrolled');
+                $('.scroll-up').fadeOut();
+                $('#mainlogo').show();
+                $('#headerlogo').hide();
+            }
+        });
+	},
+	callAll:function(){     
+        SecretChambers.setHomeScreen();
+        SecretChambers.smoothScroll();
+        SecretChambers.windowBindScroll();
 	}
 }
+$(document).ready(function() {
+         $('body').scrollspy({ target: '#custom-collapse' });
+         SecretChambers.callAll();
+    //      setTimeout(function(){
+		  //   $.scrollTo("#how", 1000);
+		  // }, 500);
+          
+      });
+        
