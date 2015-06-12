@@ -1,0 +1,8 @@
+RewriteCond %{HTTP_HOST} ^www\.thesecretchambers\.com$
+RewriteRule ^/?$ "http\:\/\/thesecretchambers\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^XXX\.XXX\.XXX\.XXX
+RewriteRule (.*) http://www.yourdomain.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* – [F,L]

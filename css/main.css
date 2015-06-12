@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+
 body {
   font-family: 'Open Sans', Tahoma, Arial;
 }
@@ -83,6 +82,7 @@ body {
   font-weight: normal;
   text-decoration: none;
 }
+
 
 /*@media (max-width: 768px) {
   #wrapper {
@@ -242,14 +242,14 @@ header .navbar-custom.scrolled {
   -ms-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
-  border-bottom: 3px solid #B5985A;"
+  border-bottom: 3px solid #B5985A;
 }
 
 /*home over*/
 .home-overlay {
-  background-color: rgba(44, 62, 80, 0.3);
-  background-image: url("../img/pattern.png");
-  background-repeat: repeat;
+  background-color: rgba(44, 62, 80, 0.4);
+  /*background-image: url("../img/pattern.png");
+  background-repeat: repeat;*/
   height: 100%;
   left: 0;
   position: absolute;
@@ -313,6 +313,7 @@ header .navbar-custom.scrolled {
 }
 .faq{
     background: url("../img/blackBackground.jpg");
+    background-size:cover;
 }
 .contact{
 background: black; 
@@ -398,6 +399,7 @@ li.active{
 /*FAQ LIST SECTION*/
 .faq-List {
         margin-top: 40px;
+
     }
      .faq-List li {
         margin: 0px;
@@ -482,6 +484,8 @@ li.active{
      .faq-List li:before {
         top: auto;
         right: auto;
+        height: 54px;
+        width: 56px;
         bottom: 0px;
         left: 0px;
         background: url(../img/icons/bot-left-corner.png);
@@ -830,11 +834,11 @@ ul.social-network li {
 .social-network a.icoVimeo:hover {
   background-color:#0590B8;
 }
-.social-network a.icoLinkedin:hover {
-  background-color:#007bb7;
+.social-network a.icoyoutube:hover {
+  background-color:#BD3518;
 }
 .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoyoutube:hover i {
   color:#fff;
 }
 a.socialIcon:hover, .socialHoverClass {
@@ -877,4 +881,17 @@ a.socialIcon:hover, .socialHoverClass {
   -o-transition: all 0.8s;
   -ms-transition: all 0.8s;
   transition: all 0.8s;
+}
+
+
+
+
+
+.tlt{
+    text-shadow:-1px 0 #B5985A, 0 1px #B5985A, 1px 0 #B5985A, 0 -1px #B5985A;
+  color: black;
+  font: 700 40px/1.2 Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 5px 0 5px;
 }
