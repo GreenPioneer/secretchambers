@@ -1,3 +1,26 @@
+
+//GA 
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63551693-1', 'auto');
+  ga('send', 'pageview');
+
+// https://report.ptengine.com
+window._pt_lt = new Date().getTime();
+  window._pt_sp_2 = [];
+  _pt_sp_2.push('setAccount,67933f48');
+  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+  (function() {
+    var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+    atag.src = _protocol + 'js.ptengine.com/pta.js';
+    var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
+    stag.src = _protocol + 'js.ptengine.com/pts.js';
+    var s = document.getElementsByTagName('script')[0]; 
+    s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
+  })();
 /*! 
 * Lettering.JS 0.6.1
 *

@@ -17,4 +17,4 @@ Disallow: /api/
 
 
 
-Sitemap: http://www.tallerconcpets.com/demo/secretchambers/
+Sitemap: http://thesecretchambers.com/sitemap.xml

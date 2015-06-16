@@ -120,6 +120,47 @@ body {
     background: url(../img/piratemap.jpg) no-repeat;
     background-size: cover;
 }
+.nav-cust{
+      margin-bottom:0px;
+   }
+   .nav-white{
+      background-color: white;
+   }
+   .header-img-sm{
+height: 50px;
+   }
+   .header-img-xs{
+width: 50px;
+   }
+
+.how-margin{
+   margin-bottom:45px;
+}
+.img-blackbeard{
+   height: 100%;
+   border-radius: 42%;
+}
+.video-width{
+   width: 100%;
+}
+.escape-rate{
+width: 45%
+}
+.dif-rate{
+   width: 70%
+}
+.room-list-padding{
+   padding:0px
+}
+.checkfront-back{
+   background: url('//tallerconcepts.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px
+}
+.checkfront-reserve{
+   font-size: 16px
+}
+.contact-bottom-margin{
+   margin-bottom:15px;
+}
 /* ---------------------------------------------- /*
  * Reset border-radius
 /* ---------------------------------------------- */
