@@ -108,17 +108,17 @@ body {
 
 /*START OF CORE*/
  video#background {
-    display: block;
-    position: fixed;
-    right: 0;
-    bottom:0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    background: url(../img/piratemap.jpg) no-repeat;
-    background-size: cover;
+   display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+   min-height: 100%; 
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: black;
+  background-size: cover;
 }
 .nav-cust{
       margin-bottom:0px;
@@ -301,7 +301,8 @@ header .navbar-custom.scrolled {
 .intro {
     position: absolute;
     width: 100%;
-    top: 50%;
+    /*top: 50%;*/
+    bottom: 40px;
     left: 0;
     text-align: center;
     -webkit-transform: translate(0%, -50%);
@@ -310,6 +311,21 @@ header .navbar-custom.scrolled {
          -o-transform: translate(0%, -50%);
             transform: translate(0%, -50%);
     padding: 0 15px;
+  z-index: 1;
+}
+.introhead {
+    position: absolute;
+    width: 100%;
+    top: 125px;;
+    left: 0;
+    text-align: center;
+    -webkit-transform: translate(0%, -50%);
+       -moz-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+         -o-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+    padding: 0 15px;
+  z-index: 1;
 }
 
 .intro h1{
@@ -336,6 +352,7 @@ header .navbar-custom.scrolled {
 
 .bbg{
      background: url("../img/blackBackground.jpg");
+       padding-top: 35px;
 }
 .rooms{
    /* background: url("../img/blackTransBackground.jpeg")center; 
@@ -385,7 +402,7 @@ background: black;
 }
 li.active{
     background-color: #B5985A;
-    display:block !important;
+    /*display:block !important;*/
     opacity:.8;
      -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -638,10 +655,12 @@ li.active{
     margin-left: -1.5px;
     background-color: #f1f1f1;
 }
-
+ .timelast{
+      margin-bottom: 60px !important;
+    }
 .timeline>li {
     position: relative;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
     min-height: 50px;
 }
 
@@ -688,7 +707,7 @@ li.active{
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #B5985A;
+    background-color: #F1F1F1;
 }
 
 .timeline>li .timeline-image h4 {
@@ -739,9 +758,11 @@ li.active{
     .timeline:before {
         left: 50%;
     }
-
+     .timelast{
+      margin-bottom: 0;
+    }
     .timeline>li {
-        margin-bottom: 100px;
+        margin-bottom: -10px;
         min-height: 100px;
     }
 
@@ -773,8 +794,12 @@ li.active{
 }
 
 @media(min-width:992px) {
+    .timelast{
+      margin-bottom: 60px !important;
+    }
     .timeline>li {
-        min-height: 110px;
+        min-height: 40px;
+        margin-bottom: 55px;
     }
 
     .timeline>li .timeline-panel {
@@ -800,7 +825,8 @@ li.active{
 
 @media(min-width:1200px) {
     .timeline>li {
-        min-height: 120px;
+        min-height: 50px;
+        margin-bottom: 60px;
     }
 
     .timeline>li .timeline-panel {
@@ -928,11 +954,39 @@ a.socialIcon:hover, .socialHoverClass {
 
 
 
-.tlt{
+@media (max-width: 700px) {
+ .tlt{
+    text-shadow:-1px 0 #B5985A, 0 1px #B5985A, 1px 0 #B5985A, 0 -1px #B5985A;
+  color: black;
+  font: 700 34px/1.2 Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 5px 0 5px;
+}
+.tltlil{
+    text-shadow:-1px 0 #B5985A, 0 1px #B5985A, 1px 0 #B5985A, 0 -1px #B5985A;
+  color: black;
+  font: 700 25px/1.2 Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 5px 0 5px;
+}
+}
+@media (min-width: 700px) {
+ .tlt{
     text-shadow:-1px 0 #B5985A, 0 1px #B5985A, 1px 0 #B5985A, 0 -1px #B5985A;
   color: black;
   font: 700 40px/1.2 Raleway, sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
   margin: 5px 0 5px;
+}
+.tltlil{
+    text-shadow:-1px 0 #B5985A, 0 1px #B5985A, 1px 0 #B5985A, 0 -1px #B5985A;
+  color: black;
+  font: 700 25px/1.2 Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 5px 0 5px;
+}
 }

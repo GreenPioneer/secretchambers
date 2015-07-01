@@ -90,7 +90,7 @@
    <body>
       <header class="header">
          <nav class="navbar navbar-custom navbar-fixed-top scrolled nav-cust" role="navigation">
-            <div class="container">
+            <div class="container-fluid">
                <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
                   <span class="sr-only nav-white">Toggle navigation</span>
@@ -104,10 +104,10 @@
                </div>
                <div class="collapse navbar-collapse" id="custom-collapse">
                   <ul class="nav navbar-nav navbar-right">
-                     <li><a  href="#home">Home</a></li>
+                     <li class="hide"><a  href="#home">Home</a></li>
                      
                      <li><a href="#how">How it works</a></li>
-                     <li ><a href="#rooms" >Chambers </a></li>
+                     <li ><a href="#rooms" >Rooms</a></li>
                      <li><a href="#faq">FAQ</a></li>
                      <li><a href="#book" class="activebtn">Book Now <i class="fa fa-bookmark-o"></i></a></li>
                      <!-- <li><a href="#trip">Trip Advisor</a></li> -->
@@ -121,22 +121,90 @@
          </nav>
       </header>
       <div id="wrapper" class="toggled">
-         <video autoplay loop poster="./img/piratemap.jpg" id="background">
-            <!-- <source src="img/piratemap.webm" type="video/webm"> -->
+         <!--<video autoplay loop poster="./img/piratemap.jpg" id="background">
+             <source src="./video/piratemap.webm" type="video/webm"> 
             <source src="./video/piratemap.mp4" type="video/mp4">
-         </video>
+         </video>-->
+        <img src="./img/homescreen.jpg" style="width:100%;height:100%;position:absolute;">
          <div class="scroll-up" >
             <a href="#home"><i class="fa fa-angle-up"></i></a>
          </div>
          <section id="home" class="screen-height">
-            <div class="home-overlay"></div>
-            <div class="intro">
-               <div class="start"></div>
+            <div class="introhead">
+             
                <div class="container">
                   <div class="row">
-                     <div class="col-sm-8 col-sm-push-2  col-lg-6 col-lg-push-3 " >
-                        <!-- <span class="tlt">"Engage your mind and the key you will find"</span> -->
-                        <h1 class="tlt">Dallas Fort Worth DFW escape room challenge at the secret chambers</h1>
+                     <div class="col-sm-12 " >
+                       
+                        <h1 class="tlt">Dallas Fort Worth (DFW) escape room challenge</h1>
+                     </div>
+                  </div>
+                 
+               </div>
+            </div>
+              <div class="container" style="  padding-top: 250px;">
+                  <div class="row" style="padding-bottom:50px;">
+                     <div class="col-sm-12 " >                       
+                        <a class="btn btn-primary btn-lg">Where are we located?</a>
+                     </div>
+                  </div>
+                  
+                  <div class="row" style="padding-bottom:50px;">
+                     <div class="col-sm-12 " >                       
+                        <a class="btn btn-primary btn-lg">What is an escape room?</a>
+                     </div>
+                  </div>
+                 <div class="row">
+                     <div class="col-sm-12 " >                       
+                        <a class="btn btn-primary btn-lg">Want to book a hour spot?</a>
+                     </div>
+                  </div>
+               </div>
+               <a href="#how">
+               <div class="scroll-down">
+                  <span>
+                  <i class="fa fa-angle-down fa-2x"></i>
+                  </span>
+               </div>
+            </a>
+         </section>
+         <!--<div class="home-overlay"></div>-->
+         <!--<section id="home" class="screen-height">
+            
+            <div class="introhead">
+             
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12 " >
+                       
+                        <h1 class="tlt">Dallas Fort Worth (DFW) escape room challenge</h1>
+                     </div>
+                  </div>
+                 
+               </div>
+            </div>
+            <div class="intro">
+               
+               <div class="container">
+                  
+                  <div class="row" >
+                     <div class="col-sm-4  col-lg-4 " >
+                        
+                        <h2 class="tltlil">Need directions?</h2>
+                        <a  href="http://www.google.com/maps/place/2350+Mall+Circle,+Fort+Worth,+TX+76116,+USA" target="_blank" class="btn btn-primary">Click Here</a>
+                        
+                     </div>
+                     <div class="col-sm-4   col-lg-4 " >
+                        
+                        <h2 class="tltlil">What is an escape room?</h2>
+                        <a href="#how" class="btn btn-primary">Click here</a>
+                     </div>
+                     <div class="col-sm-4 col-lg-4 " >
+                       
+                        <h2 class="tltlil">Want to book a spot?</h2>
+                        <a href="#book" class="btn btn-primary">Online</a>
+                        <a href="tel:8173419838" class="btn btn-primary">Call</a>
+                        
                      </div>
                   </div>
                </div>
@@ -148,7 +216,7 @@
                   </span>
                </div>
             </a>
-         </section>
+         </section>-->
          
          <section id="how" class="bbg">
             <div class="container">
@@ -164,71 +232,71 @@
                      <ul class="timeline">
                         <li>
                            <div class="timeline-image">
-                              <img class="img-circle img-responsive" src="./img/pirate.ico" alt="pick a room">
+                              <img class="img-circle img-responsive" src="./img/hiw/HIW-1.png" alt="pick a room">
                            </div>
                            <div class="timeline-panel">
                               <div class="timeline-heading">
-                                 <h3 class="subheading">Pick a Chamber</h3>
+                                 <h3 class="subheading">Grab some friends</h3>
                               </div>
                               <div class="timeline-body">
-                                 <p class="">Choose one of the secret chambers for your adventure. Currently, only the Pirate room is available but more rooms with different themes will be coming in the near future.</p>
+                                 <p class="">call up your friends and try to assemble a team of 2 - 8 players </p>
                               </div>
                            </div>
                         </li>
                         <li class="timeline-inverted">
                            <div class="timeline-image">
-                              <img class="img-circle img-responsive" src="./img/room.png" alt="learn objective">
+                              <img class="img-circle img-responsive" src="./img/hiw/HIW-2.png" alt="learn objective">
                            </div>
                            <div class="timeline-panel">
                               <div class="timeline-heading">
-                                 <h3 class="subheading">Objective</h3>
+                                 <h3 class="subheading">Book online</h3>
                               </div>
                               <div class="timeline-body">
-                                 <p class="">The purpose of this pirate adventure is to find blackbeard's treasure map. It is hidden some where in the room</p>
+                                 <p class="">You can start booking at ayntime by clicking the book now tab in the header</p>
                               </div>
                            </div>
                         </li>
                         <li>
                            <div class="timeline-image">
-                              <img class="img-circle img-responsive" src="./img/clue.png" alt="search for clues">
+                              <img class="img-circle img-responsive" src="./img/hiw/HIW-3.png" alt="search for clues">
                            </div>
                            <div class="timeline-panel">
                               <div class="timeline-heading">
-                                 <h3 class="subheading">Search for Clues</h3>
+                                 <h3 class="subheading">Show up for your time slot</h3>
                               </div>
                               <div class="timeline-body">
-                                 <p class="">Search throughout the room for any clues you can find that will help you put the pieces of the treasue map together.</p>
+                                 <p class="">Try to be 15 mins earlier to read the rules and have team debriefing</p>
                               </div>
                            </div>
                         </li>
                         <li class="timeline-inverted">
                            <div class="timeline-image">
-                              <img class="img-circle img-responsive img-blackbeard" src="./img/blackbeardopt.png" alt="dont get caught">
+                              <img class="img-circle img-responsive img-blackbeard" src="./img/hiw/HIW-4.png" alt="dont get caught">
                            </div>
                            <div class="timeline-panel">
                               <div class="timeline-heading">
-                                 <h3 class="subheading">Don't get caught!</h3>
+                                 <h3 class="subheading">Use the clues to solve the puzzles</h3>
                               </div>
                               <div class="timeline-body">
-                                 <p class="">Pirates will enter the room as your searching for clues. Don't let them catch you or you'll be out for the rest of the game.</p>
+                                 <p class="">"It's not that I'm so smart, it's just that I stay with problems longer." -Albert Einstein</p>
                               </div>
                            </div>
                         </li>
                         <li>
                            <div class="timeline-image">
-                              <img class="img-circle img-responsive"    src="./img/treasure.png" alt="escape the room">
+                              <img class="img-circle img-responsive"    src="./img/hiw/HIW-5.png" alt="escape the room">
                            </div>
                            <div class="timeline-panel">
                               <div class="timeline-heading">
-                                 <h3 class="subheading">Escape</h3>
+                                 <h3 class="subheading">Escape the room in under 60 minutes</h3>
                               </div>
                               <div class="timeline-body">
-                                 <p class="">Escape by finding all the pieces of Blackbeard's treasure map before he and his men return.</p>
+                                 <p class="">Your team will have 60 minutes to find the clues, crack the codes, solve the puzzles, complete the challenges and escape! Use cunning deduction and teamwork in an adrenaline filled race to beat the clock!</p>
                               </div>
                            </div>
                         </li>
-                        <li class="timeline-inverted">
-                           <div class="timeline-image">
+                        <li class="timeline-inverted timelast">
+                           <div class="timeline-image" style="background-color:#B5985A">
                               <h4> 
                                  <br>Have fun!
                                  <br>
@@ -244,13 +312,18 @@
             <div class="container">
                <div class="row" itemscope itemtype="http://schema.org/Event">
                   <div class="col-md-12 col-lg-12 section-heading scbordergold">
-                     <h2 itemprop="name" >Pick a Chamber</h2>
+                     <h2 itemprop="name" >Pick a Room</h2>
                      <h3 ></h3>
                   </div>
                   <div class="col-md-6">
-                     <video itemprop="video" class="video-width" autoplay loop poster="./img/jolly-rogeropt.jpg" >
+                     <!--<video itemprop="video" class="video-width" autoplay loop poster="./img/jolly-rogeropt.jpg" >
+                        
+                        <source src="./video/goldcompass.mp4" type="video/mp4">
+                     </video>-->
+                     <video itemprop="video" class="video-width" autoplay loop poster="./img/piratemap.jpg" >
                         <!-- <source src="img/pirateflag.webm" type="video/webm"> -->
-                        <source src="./video/pirateflag.mp4" type="video/mp4">
+                        <source src="./video/piratemap.webm" type="video/mp4">
+                        <source src="./video/piratemap.mp4" type="video/mp4">
                      </video>
                   </div>
                   <div class="col-md-6">
@@ -259,14 +332,14 @@
                         "You’ve snuck aboard Blackbeard’s pirate ship while at port, you must find all the pieces of his treasure map in the captain’s quarters before Blackbeard and his men get back."
                      </p>
                      <div class="col-md-6">
-                        <p>Escape Rate</p>
+                        <p>Escape Rate - This is the amount of people that make it out before 60 minutes</p>
                         <div class="progress">
                            <div class="progress-bar progress-bar-striped active escape-rate" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" >
                               <span class="sr-only">45% Complete</span>
                               45%
                            </div>
                         </div>
-                        <p>Difficulty Rate</p>
+                        <p>Difficulty Rate -This is the average people say on the difficulty of the room</p>
                         <div class="progress">
                            <div class="progress-bar progress-bar-danger progress-bar-striped active dif-rate" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" >
                               <span class="sr-only">70% Complete</span>
@@ -287,7 +360,7 @@
                         <a itemprop="url" href="#book" class="btn btn-primary btn-lg ">Book Now</a>
                      </div>
                   </div>
-                  <div class="col-md-12 col-lg-12 col-md-push-3 col-lg-push-3">
+                  <div class="col-md-12 col-lg-12">
                      <h3>More rooms Coming soon...<a href="http://eepurl.com/bp97AD">Join the Mailing list</a> for updates, offers & rewards</h3>
                   </div>
                </div>
