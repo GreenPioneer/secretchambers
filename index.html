@@ -99,7 +99,7 @@
                   <span class="icon-bar nav-white"></span>
                   </button>
                   <div id="headerlogo">
-                     <a href="#home"><img class="hidden-xs header-img-sm" src="./img/logo.png" alt="secret chambers logo"><img class="visible-xs header-img-xs" src="./img/logomini.png" alt="secret chambers logo"></a>
+                     <a href="#home"><img class="hidden-xs header-img-sm" src="./img/blogo.png" alt="secret chambers logo"><img class="visible-xs header-img-xs" src="./img/logomini.png" alt="secret chambers logo"></a>
                   </div>
                </div>
                <div class="collapse navbar-collapse" id="custom-collapse">
@@ -153,7 +153,7 @@
                   
                  <div class="row" style="padding-bottom:50px;">
                      <div class="col-sm-12 " >                       
-                        <a href="#book" class="btn btn-gold btn-lg">Want to book hour spot?</a>
+                        <a href="#book" class="btn btn-gold btn-lg">Want to book a room?</a>
                      </div>
                   </div>
                   <div class="row" >
@@ -315,7 +315,7 @@
                         <source src="./video/goldcompass.mp4" type="video/mp4">
                      </video>-->
                      <video itemprop="video" class="video-width" autoplay loop poster="./img/piratemap.jpg" >
-                        <!-- <source src="img/pirateflag.webm" type="video/webm"> -->
+                       
                         <source src="./video/piratemap.webm" type="video/mp4">
                         <source src="./video/piratemap.mp4" type="video/mp4">
                      </video>
@@ -483,7 +483,8 @@
                      <h2>Book Now</h2>
                      <h3 >Currently Down For Service </h3>
                   </div>
-                  <script type="text/javascript" src="//tallerconcepts.checkfront.com/lib/interface--30.js"></script>
+                  <script type="text/javascript" src="https://bookeo.com/widget.js?a=41551FJ7CEC14E754F5832"></script>
+                  <!--<script type="text/javascript" src="//tallerconcepts.checkfront.com/lib/interface--30.js"></script>
                   <div id="CHECKFRONT_WIDGET_01">
                      <p id="CHECKFRONT_LOADER" class="checkfront-back">Searching Availability...</p>
                   </div>
@@ -495,8 +496,8 @@
                      style: 'color: fff',
                      provider: 'droplet'
                      }).render();
-                  </script>
-                  <noscript><a href="https://tallerconcepts.checkfront.com/reserve/" class="checkfront-reserve">Continue to Secure Booking System &raquo;</a></noscript>
+                  </script>-->
+                  <!--<noscript><a href="https://tallerconcepts.checkfront.com/reserve/" class="checkfront-reserve">Continue to Secure Booking System &raquo;</a></noscript>-->
                </div>
             </div>
          </section>
@@ -506,18 +507,17 @@
             </section> -->
          <section id="contact" class="contact">
             <div class="container">
-               <div class="col-lg-12 text-center">
-                  <h2 class="section-heading scbordergold">Contact Us</h2>
-                  <h3></h3>
+               <div class="row"> 
+                     <div class="col-lg-12 text-center scbordergold">
+                        <h2 class="section-heading">Contact Us</h2>
+                        <h3></h3>
+                     </div>
                </div>
+               <br>
                <div class="row">
-                  <div >
-                     <form action="/Home/SendContactMessage" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" method="post">
+                  <!--<div >
+                     <form action="http://formspree.io/support@thesecretchambers.com" method="POST">
                         <div class="col-md-6 col-md-offset-1">
-                           <div class="alert alert-success hide" id="divSuccess" >
-                              <button type="button" class="close" data-dismiss="alert">×</button>
-                              Thank you for contacting us!
-                           </div>
                            <div class="contact-form" role="form" >
                               <div class="col-md-6">
                                  <input class="form-control input-box required" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" placeholder="Your Name" type="text" value="">
@@ -538,7 +538,29 @@
                            </div>
                         </div>
                      </form>
-                  </div>
+                  </div>-->
+                  <div class="col-md-8">
+                  <form action="http://formspree.io/support@thesecretchambers.com" method="POST" id="contact-form" role="form">
+                        <div class="ajax-hidden">
+                            <div class="form-group wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
+                                <label class="sr-only" for="c_name">Name</label>
+                                <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+                            </div>
+
+                            <div class="form-group wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; -webkit-animation-delay: 0.1s; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
+                                <label class="sr-only" for="c_email">Email</label>
+                                <input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+                            </div>
+
+                            <div class="form-group wow fadeInUp animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; -webkit-animation-delay: 0.2s; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
+                                <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-lg btn-block btn-primary" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; -webkit-animation-delay: 0.3s; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">Send Message</button>
+                        </div>
+                        <div class="ajax-response"></div>
+                    </form>
+                    </div>
                   <div class="col-md-4 text-left">
                      <p>Please contact us if you have any questions about our Rooms or Prices, we can arrange group bookings, special events and parties. Make reservations online or call us for phone bookings!</p>
                      <div class="contact-details">
@@ -565,16 +587,16 @@
                <div class="row">
                   <div class="col-sm-12">
                      <p class="copyright">
-                        © 2015 The Secret Chambers | Development: <a href="http://tallerconcepts.com/">Taller Concepts</a> &amp; <a href="http://tallercloud.com/">Taller Cloud</a>
+                        © 2015 The Secret Chambers | Developed: <a target="_blank" href="http://tallerconcepts.com/">Taller Concepts</a> &amp; Hosted: <a target="_blank" href="http://www.tallerhost.com/">Taller host</a>
                      </p>
                   </div>
                   <div class="col-md-12">
                      <ul class="social-network social-circle">
                         <!-- <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li> -->
-                        <li><a href="https://www.facebook.com/pages/The-Secret-Chambers/1599629236962664?fref=ts&amp;ref=br_tf" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/TSCEscapeRoom" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://plus.google.com/u/0/101908909926948570436" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC5Ze52Q-mPHVQtpyur8glyA" class="icoyoutube" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/pages/The-Secret-Chambers/1599629236962664?fref=ts&amp;ref=br_tf" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/TSCEscapeRoom" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://plus.google.com/u/0/101908909926948570436" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UC5Ze52Q-mPHVQtpyur8glyA" class="icoyoutube" title="Youtube"><i class="fa fa-youtube"></i></a></li>
                      </ul>
                   </div>
                </div>
@@ -585,6 +607,6 @@
       </div>
       <!-- /#wrapper -->
       <!-- jQuery -->
-      <script src="js/secretchambers.min.js"></script>
+      <script src="js/secretchambers.min.js" async></script>
    </body>
 </html>

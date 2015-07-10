@@ -415,6 +415,7 @@ header .navbar-custom.scrolled {
 }
 .contact{
 background: black; 
+padding-bottom: 30px;
 }
 
 
@@ -677,13 +678,33 @@ li.active{
     }
 
     /*TIMELINE OF HOW TOO*/
+    
+    
+    
     .timeline-heading {
     color: #B5985A;
     margin-bottom: 35px;
   }
+ 
+.timeline-heading .subheading {
+  color: #B5985A;
+  margin-top: 20px;
+  border-bottom: 3px solid #B5985A;
+}
+
+@media (min: 769px){
+.timeline-heading .subheading {
+  color: #B5985A;
+  border-bottom: 3px solid #B5985A;
+  margin-top: 32px;
+}
+}
+@media(min-width:993px) {
 .timeline-heading .subheading{
     color: #B5985A;
     border-bottom:3px solid #B5985A;
+    margin-top: 60px;
+}
 }
     .timeline {
     position: relative;
