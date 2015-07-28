@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Open Sans', Tahoma, Arial;
+  font-family: Book Antiqua;
 }
 
 #wrapper {
@@ -311,7 +311,7 @@ a:hover, a:focus {
 /*
 */
 header .navbar-custom.scrolled {
-  background: rgba(0,0,0, 0.8);
+  background: black;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
@@ -371,7 +371,7 @@ header .navbar-custom.scrolled {
 }
 
 .start {
-    font-family: Raleway, "Times New Roman", Times, sans-serif;
+    font-family: Book Antiqua;
     font-size: 16px;
     font-style: normal;
     text-transform: none;
@@ -445,7 +445,7 @@ li.active{
     background-color: #B5985A;
     
     /*display:block !important;*/
-    opacity:.8;
+    opacity:1;
      -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -ms-transition: all 0.25s ease-in-out;
@@ -458,7 +458,7 @@ li.active{
 .activebtn{
     background-color: #B5985A !important;
     display:block !important;
-    opacity:.8;
+    opacity:1;
      -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -ms-transition: all 0.25s ease-in-out;
@@ -640,7 +640,7 @@ li.active{
      .faq-List li .wrap p.question {
         font-size: 44px;
         font-size: 28px;
-        font-family: avenir-condensed;
+        font-family: Book Antiqua;
         line-height: 34px;
         padding-left: 0px;
         padding-right: 0px;
@@ -1025,7 +1025,7 @@ a.socialIcon:hover, .socialHoverClass {
  .tlt{
     text-shadow:-1px 0 #B5985A, 0 1px #B5985A, 1px 0 #B5985A, 0 -1px #B5985A;
   color: black;
-  font: 700 28px/1.2 Raleway, sans-serif;
+  font: 700 28px/1.2 Book Antiqua;
   text-transform: uppercase;
   letter-spacing: 5px;
   margin: 5px 0 5px;
@@ -1033,7 +1033,7 @@ a.socialIcon:hover, .socialHoverClass {
 .tltlil{
     text-shadow:-1px 0 #B5985A, 0 1px #B5985A, 1px 0 #B5985A, 0 -1px #B5985A;
   color: black;
-  font: 700 25px/1.2 Raleway, sans-serif;
+  font: 700 25px/1.2 Book Antiqua;
   text-transform: uppercase;
   letter-spacing: 5px;
   margin: 5px 0 5px;
@@ -1043,7 +1043,7 @@ a.socialIcon:hover, .socialHoverClass {
  .tlt{
     text-shadow:-1px 0 #B5985A, 0 1px #B5985A, 1px 0 #B5985A, 0 -1px #B5985A;
   color: black;
-  font: 700 35px/1.2 Raleway, sans-serif;
+  font: 700 35px/1.2 Book Antiqua;
   text-transform: uppercase;
   letter-spacing: 5px;
   margin: 5px 0 5px;
@@ -1051,7 +1051,7 @@ a.socialIcon:hover, .socialHoverClass {
 .tltlil{
     text-shadow:-1px 0 #B5985A, 0 1px #B5985A, 1px 0 #B5985A, 0 -1px #B5985A;
   color: black;
-  font: 700 25px/1.2 Raleway, sans-serif;
+  font: 700 25px/1.2 Book Antiqua;
   text-transform: uppercase;
   letter-spacing: 5px;
   margin: 5px 0 5px;
@@ -1061,3 +1061,31 @@ a.socialIcon:hover, .socialHoverClass {
   min-height: 600px;
   background-color: black;
 }
+
+
+#bookeoStartMobile {
+  width: 254px!important;
+  color: #fff!important;
+  padding-left: 5px;
+  background-image: url(../img/border.png);
+  background-size: cover;
+  padding-top: 22px !important;
+  height: 81px!important;
+  border: 0 !important;
+  background-color: black !important;
+  font-size: 23px !important;
+        }
+ #bookeoStartMobile:hover,#bookeoStartMobile:focus{
+   color: #B5985A!important;
+ }
+ 
+ .iframewidth{
+   width: 650px;
+ }
+ @media(max-width:649px){
+   .iframewidth{
+   width: 100%;
+ }
+ }
+ 
+ 
