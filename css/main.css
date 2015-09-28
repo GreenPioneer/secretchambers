@@ -1061,6 +1061,9 @@ a.socialIcon:hover, .socialHoverClass {
   min-height: 600px;
   background-color: black;
 }
+.screen-height-rooms{
+  min-height: 600px;
+}
 
 
 #bookeoStartMobile {

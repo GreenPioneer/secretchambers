@@ -39,10 +39,12 @@ window._pt_lt = new Date().getTime();
 var SecretChambers = {
 	setHomeScreen:function(){
      // ($(window).height() >600) ? $(".screen-height").height($(window).height()):$(".screen-height").height('600px');
-($(window).height() >'600') ? $(".screen-height").height($(window).height()):$(".screen-height").height('600');
+      ($(window).height() >'600') ? $(".screen-height").height($(window).height()):$(".screen-height").height('600');
+      ($(window).height() >'600') ? $(".screen-height-rooms").height($(window).height()):$(".screen-height-rooms").height('600');
 
       $(window).resize(function(){
           ($(window).height() >'600') ? $(".screen-height").height($(window).height()):$(".screen-height").height('600');
+          ($(window).height() >'600') ? $(".screen-height-rooms").height($(window).height()):$(".screen-height-rooms").height('600');
       });
     //   if($(window).height() > 500){
     //     $(".screen-height").height($(window).height());
