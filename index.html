@@ -1,647 +1,720 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" lang="en">
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<html lang="en" data-ng-app="myApp">
 
-    
-
-    <title>The Secret Chambers</title>
-    <meta name="google-site-verification" content="">
+<head>
+    <meta charset="UTF-8">
+    <!-- https://github.com/namuol/cheet.js -->
+    <title>Dallas Fort Worth escape room challenge entertainment at The Secret Chambers</title>
+    <meta name="google-site-verification" content="36phB56--4LRnl5SACn7Kpt-_LNoaqn-uBjRT9JPrcM" />
     <!-- 3 most important and relevant keyword-->
-    <!-- Texas, escape, Room --> 
-
+    <!-- Texas, escape, Room -->
     <!-- comp mode and scale -->
-    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Descripton and key words  and copy right-->
     <meta name="copyright" content="Copyright 2015 The Secret Chambers, llc. All rights reserved.">
-    <meta name="description" content="The secret chambers is (DFW) dallas fort worth premier escape room challenge. entertainment for all ages with plenty of things todo ">
-    <meta name="keywords" content="escape, room, escaperoom">
-    <!-- Robots and visit -->
-    <meta name="robots" content="index, follow">
-    <meta name="revisit-after" content="7 days">
-    <!-- Char and view -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta http-equiv="content-style-type" content="text/css" /> 
-    <meta http-equiv="content-script-type" content="text/javascript" /> 
+    <meta name="description" content="The Secret Chambers is the premier DFW Dallas Fort Worth escape room challenge. Unlock the secrets to a fun interactive and immersive entertainment experience. Great for celebrations, team building, dates, or just a good time">
+    <meta name="keywords" content="escape, room, challenge, fun, team, puzzle, secret, clues, pirate, escaperoom, cthulhu, steampunk">
+
     <!-- For Google -->
     <link rel="author" href="https://plus.google.com/+TallerConcepts">
     <link rel="publisher" href="https://plus.google.com/+TallerConcepts">
-    <!-- for Twitter -->          
+    <!-- for Twitter -->
     <meta name="twitter:card" content="photo">
-    <meta name="twitter:site" content="http://www.tallerconcepts.com/demo/secretchambers/">
+    <meta name="twitter:site" content="http://www.thesecretchambers.com">
     <meta name="twitter:title" content="The Secret Chambers">
-    <meta name="twitter:description" content="The secret chambers is (DFW) dallas fort worth premier escape room challenge. entertainment for all ages with plenty of things todo that also incorporates team building , birthday partys, corporate and date night">
-    <meta name="twitter:image" content="http://www.tallerconcepts.com/demo/secretchambers/img/icons/sc/196x196.png">
-    <meta name="twitter:url" content="">
-    <!-- for Facebook OpenGraph --> 
-    <meta property="og:title" content="Pirate Escape Room">
+    <meta name="twitter:description" content="The Secret Chambers is the premier Dallas Fort Worth DFW escape room challenge. Unlock the secrets to a fun interactive and immersive entertainment experience. Great for celebrations, team building, dates, or just a good time">
+    <meta name="twitter:image" content="http://www.thesecretchambers.com/img/icons/sc/196x196.png">
+    <meta name="twitter:url" content="https://twitter.com/TSCEscapeRoom">
+    <!-- for Facebook OpenGraph -->
+    <meta property="og:title" content="The Secret Chambers">
     <meta property="og:type" content="activity">
-    <meta property="og:url" content="http://www.tallerconcepts.com/demo/secretchambers/">
-    <meta property="og:image" content="http://www.tallerconcepts.com/demo/secretchambers/img/icons/sc/196x196.png">
+    <meta property="og:url" content="http://www.thesecretchambers.com">
+    <meta property="og:image" content="http://www.thesecretchambers.com/img/icons/sc/196x196.png">
     <meta property="og:site_name" content="Secret Chambers">
     <!-- <meta property="fb:admins" content="USER_ID">
-    <meta property="fb:app_id" content="APP_ID"> -->
-    <meta property="og:description" content="Enter a description that will attract Facebook users. Use no more than 255 characters.">
-    <fb:like href="http://developers.facebook.com/" width="450" height="80"> 
+         <meta property="fb:app_id" content="APP_ID"> -->
+    <meta property="og:description" content="The Secret Chambers is the premier Dallas Fort Worth DFW escape room challenge. Unlock the secrets to a fun interactive and immersive entertainment experience. Great for celebrations, team building, dates, or just a good time">
     <!-- taller concepts -->
     <meta name="designer" content="Taller Concepts, support@tallerconcepts.com" />
-    
     <!-- Canonical -->
-    <link rel="canonical" href="http://www.tallerconcepts.com/demo/secretchambers/">
-
-    <!-- icons  -->
-    <link rel="shortcut icon" type="image/ico" href="./img/icons/sc/favicon.ico" />
-    <link rel="icon" sizes="any" type="image/ico" href="./img/icons/sc/favicon.ico" />
-    <link rel="Shortcut Icon" type="image/x-icon" href="./img/icons/sc/favicon.ico"/>
-    <!--[if IE]><link rel="SHORTCUT ICON" href="./img/icons/sc/favicon.ico"/><![endif]--><!-- Internet Explorer-->
-    
-    <link rel="shortcut icon" sizes="16x16" type="image/png" href="./img/icons/sc/16x16.png"/>
-    <link rel="shortcut icon"  sizes="32x32" type="image/png" href="./img/icons/sc/32x32.png"/>
-    <link rel="shortcut icon"  sizes="48x48"type="image/png" href="./img/icons/sc/48x48.png" />
-    <!-- apple touch -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./img/icons/sc/57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="./img/icons/sc/72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="./img/icons/sc/114x114.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="./img/icons/sc/144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="./img/icons/sc/152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/sc/180x180.png">
-    <link rel="apple-touch-icon" sizes="196x196" href="./img/icons/sc/196x196.png">
+    <link rel="canonical" href="http://www.thesecretchambers.com">
     <!-- Indicate preferred brand name for Google to display -->
     <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type":    "WebSite",
-        "name":     "secretchambers",
-        "url":      "http://tallerconcepts.com/demo/secretchambers/"
-      }
+        { "@context": "http://schema.org", "@type": "WebSite", "name": "secretchambers", "url": "http://thesecretchambers.com" }
     </script>
     <!-- dns prefetch (http://www.chromium.org/developers/design-documents/dns-prefetching) -->
-    <link rel="dns-prefetch" href="http://tallerconcepts.com/demo/secretchambers/">
+    <link rel="dns-prefetch" href="http://thesecretchambers.com">
     <!-- mobile friendly -->
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="google" content="notranslate">
-
     <!--apple -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=yes">
-    <!-- windows 8 -->
-    <meta name="msapplication-TileColor" content="#000"/>
-    <meta name="msapplication-TileImage" content="./img/icons/sc/favicon.ico"/>
-
-
-
-
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <!-- font Awesome CSS -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-
-    <!-- Main Styles CSS -->
-    <link href="css/main.css" rel="stylesheet">
+    <!--[if IE]>
+      <link rel="SHORTCUT ICON" href="./img/icons/sc/favicon.ico"/>
+      <![endif]-->
+    <!-- Internet Explorer -->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://thesecretchambers.com/img/icons/sc/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://thesecretchambers.com/img/icons/sc/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://thesecretchambers.com/img/icons/sc/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://thesecretchambers.com/img/icons/sc/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://thesecretchambers.com/img/icons/sc/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://thesecretchambers.com/img/icons/sc/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://thesecretchambers.com/img/icons/sc/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://thesecretchambers.com/img/icons/sc/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://thesecretchambers.com/img/icons/sc/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="http://thesecretchambers.com/img/icons/sc/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://thesecretchambers.com/img/icons/sc/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://thesecretchambers.com/img/icons/sc/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://thesecretchambers.com/img/icons/sc/favicon-16x16.png">
+    <link rel="manifest" href="http://thesecretchambers.com/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://thesecretchambers.com/img/icons/sc/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="alternate" href="http://thesecretchambers.com" hreflang="en-us" />
+    <link href="http://thesecretchambers.com/css/secretchambers.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
 </head>
 
-<body>
-    
+<body style="background:black;">
     <header class="header">
-
-        <nav class="navbar navbar-custom navbar-fixed-top" style="margin-bottom:0px;" role="navigation">
-
-            <div class="container">
-
+        <nav class="navbar navbar-custom navbar-fixed-top scrolled nav-cust" role="navigation">
+            <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-                        <span style="  background-color: white;" class="sr-only">Toggle navigation</span>
-                        <span style="  background-color: white;" class="icon-bar"></span>
-                        <span style="  background-color: white;"class="icon-bar"></span>
-                        <span style="  background-color: white;"class="icon-bar"></span>
+                        <span class="sr-only nav-white">Toggle navigation</span>
+                        <span class="icon-bar nav-white"></span>
+                        <span class="icon-bar nav-white"></span>
+                        <span class="icon-bar nav-white"></span>
                     </button>
                     <div id="headerlogo">
-                      <a href="#home"><img class="hidden-xs" style="height: 50px;"src="./img/logo.png"><img class="visible-xs" style="width: 50px;"src="./img/logomini.png"></a>
+                        <a href="#home"><img class="hidden-xs header-img-sm" src="./img/blogo.png" alt="secret chambers logo"><img class="visible-xs header-img-xs" src="./img/logomini.png" alt="secret chambers logo"></a>
                     </div>
                 </div>
-
                 <div class="collapse navbar-collapse" id="custom-collapse">
+                    <span class="hidden-xs hidden-sm " style="font-family: Raleway, &quot;Times New Roman&quot;, Times, sans-serif;  font-style: normal;  color: #B5985A;  font-size: 100%;  letter-spacing: 2px;  text-transform: uppercase;padding-top: 15px;  position: absolute;">
+                        "Engage your mind &amp; the key you will find"</span>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a style="display:none;"href="#home">Home</a></li>
-                        <li><a href="#how">How it works</a></li>
-                        <li><a href="#rooms" >Chambers </a></li>
-                        <li><a href="#book" class="activebtn">Book Now <i class="fa fa-bookmark-o"></i></a></li>
-                        
-                        <li style="display:none;"><a href="#trip">Trip Advisor</a></li>
-                        <li style="display:none;"><a href="#faq">FAQ</a></li>                
-                        <li style="display:none;"><a href="#contact">Contact Us</a></li>
+                        <li class="hide"><a href="#home">Home</a></li>
 
-                        <li><a href="tel:8449825537">844.982.5537</a></li>
+                        <li><a class="scgold" href="#how">How it works</a></li>
+                        <li><a class="scgold" href="#rooms">Rooms</a></li>
+                        <li><a class="scgold" href="#faq">FAQ</a></li>
+                        <li><a href="#book" class="activebtn">Book Now <i class="fa fa-bookmark-o"></i></a></li>
+                        <!-- <li><a href="#trip">Trip Advisor</a></li> -->
+
+                        <li><a class="scgold" href="#contact">Contact Us</a></li>
+                        <!--<li><a href="tel:8886699998">888-669-9998</a></li>-->
                     </ul>
                 </div>
-
-            </div><!-- .container -->
-
+            </div>
+            <!-- .container -->
         </nav>
-
     </header>
-    <div id="wrapper" class="toggled">
-        <video autoplay loop poster="./img/piratemap.jpg" id="background">
-            <!-- <source src="img/tallerconcepts.webm" type="video/webm"> -->
+    <div ng-controller="secretCtrl">
+        <!--<video autoplay loop poster="./img/piratemap.jpg" id="background">
+             <source src="./video/piratemap.webm" type="video/webm"> 
             <source src="./video/piratemap.mp4" type="video/mp4">
-        </video>
-        <div class="scroll-up" >
-            <a href="#home"><i class="fa fa-angle-up"></i></a>
-        </div>
-        <section id="home" class="screen-height">
-            <div class="home-overlay"></div>
-            <div class="intro">
-                <div class="start"></div>
-                <div id="mainlogo" >
-                  <img class="hidden-xs" style="height: 150px;"src="./img/logo.png"><br>
-                  <img class="visible-xs" style="width: 50px;margin: auto;"src="./img/logomini.png">
-                </div>
-                <div class="start">Where your enviroment becomes your adventure</div>
+         </video>-->
+         <!-- Start Demo Image Map -->
+   
+    
+        
+    <!-- End Demo Image Map -->
+        <img class="rwdimgmap " src="./img/homescreen.jpg" usemap="#key" style="width:100%;height:100%; " >
+            <map name="key">
+                <area shape="poly" coords="885, 185, 875, 182, 867, 187, 858, 185, 846, 196, 824, 203, 819, 226, 825, 264, 818, 287, 799, 294, 809, 327, 759, 438, 779, 451, 788, 428, 801, 452, 815, 448, 815, 435, 803, 420, 822, 419, 831, 411, 815, 392, 805, 399, 806, 388, 829, 332, 849, 323, 849, 298, 855, 280, 881, 280, 889, 271, 904, 260, 902, 249, 898, 237, 897, 224, 905, 216, 895, 211, 894, 202, 890, 189" ng-click="myTrigger('The Key')"  alt="Krey" />            
+            </map>
+        <section id="home" >
+<!-- class="screen-height" -->
+
+                
+                <a style="top: 20%;left: 10%;position: absolute;" href="#how" class="btn btn-gold btn-lg">What is an escape room?</a>
+                <a style="top: 40%;left: 10%;position: absolute;"href="#book" class="btn btn-gold btn-lg">Want to book a room?</a>
+                <a style="top: 60%;left: 10%;position: absolute;"href="http://www.google.com/maps/place/2350+Mall+Circle,+Fort+Worth,+TX+76116,+USA" target="_blank" class="btn btn-gold btn-lg">Where are we located?</a>
+            <div class="scroll-up">
+                <a href="#home"><i class="fa fa-angle-up"></i></a>
             </div>
             <a href="#how">
-            <div class="scroll-down">
-                <span>
-                    <i class="fa fa-angle-down fa-2x"></i>
-                </span>
-            </div>
+                <div class="scroll-down">
+                    <span>
+                  <i class="fa fa-angle-down fa-2x"></i>
+                  </span>
+                </div>
             </a>
-
         </section>
-        
-         <section id="how" class="bbg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center scbordergold" style="margin-bottom:45px;">
-                    <h2 >How It Works</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="./img/pirate.ico" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    
-                                    <h4 class="subheading">Pick a Chamber</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="">Choose one of the secret chambers for your adventure. Currently, only the Pirate room is available but more rooms with different themes will be coming in the near future.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="./img/room.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    
-                                    <h4 class="subheading">Objective</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="">The purpose of this pirate adventure is to find blackbeard's treasure map. It is hidden some where in the room</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="./img/clue.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    
-                                    <h4 class="subheading">Search for Clues</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="">Search throughout the room for any clues you can find that will help you put the pieces of the treasue map together.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" style="height: 100%;border-radius: 42%;" src="./img/blackbeard.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    
-                                    <h4 class="subheading">Don't get caught!</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="">Pirates will enter the room as your searching for clues. Don't let them catch you or you'll be out for the rest of the game.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive"    src="./img/treasure.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    
-                                    <h4 class="subheading">Escape</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="">Escape by finding all the pieces of Blackbeard's treasure map before he and his men return.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4> 
-                                    <br>Have fun!
-                                    <br></h4>
-                                    
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-        
-
-<section class="rooms" id="rooms">
-    <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-lg-12 section-heading scbordergold">
-                    <h2 >Chambers</h2>
-                    <h3 ></h3>
-                </div>
-            <div class="col-md-6">
-                     <video style="width: 100%;" autoplay loop poster="./img/jolly-roger.jpg" >
-                                <!-- <source src="img/tallerconcepts.webm" type="video/webm"> -->
-                                <source src="./video/pirateflag.mp4" type="video/mp4">
-                            </video>
-            </div>
-            <div class="col-md-6">
-                <h2>Blackbeard's Ship</h2>
-                <div>
-                </div>
-                <p>
-                    "you’ve snuck aboard Blackbeard’s pirate ship while at port, you must find all the pieces of his treasure map in the captain’s quarters before Blackbeard and his men get back."
-                </p>
-                
-                <div class="col-md-6">
-                <p>Escape Rate</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
-                    <span class="sr-only">45% Complete</span>
-                    45%
+        <!--<div class="home-overlay"></div>-->
+        <!--<section id="home" class="screen-height">
+            
+            <div class="introhead">
+             
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12 " >
+                       
+                        <h1 class="tlt">Dallas Fort Worth (DFW) escape room challenge</h1>
+                     </div>
                   </div>
-                </div>
-                <p>Difficulty Rate</p>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                    <span class="sr-only">70% Complete</span>
-                    70%
-                  </div>
-                </div>
-                </div>
-                <div class="col-md-6">
-                <ul class="list-unstyled white" style="padding:0px;">
-                    <li><i class="fa fa-users scgold"></i> Participants: 2-8 people</li>
-                    <li><i class="fa fa-clock-o scgold"></i> Duration: 60 minutes</li>
-                    <li><i class="fa fa-dollar scgold"></i> Price: $80 a room</li>
-                    <li><i class="fa fa-key scgold"></i> Objective: Find treasure map</li>
-                    <li><i class="fa fa-building-o scgold"></i> Setting: Blackbeard pirate ship</li>
-                </ul>
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
-                <a href="#book" class="btn btn-primary btn-lg ">Book Now</a>
-                </div>
-
-                <!-- Trigger the modal with a button -->
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
-              <button type="button" style="  margin-left: 30px;" class="btn btn-primary btn-lg scgoldback" data-toggle="modal" data-target="#rules">Rule's</button>
+                 
+               </div>
             </div>
-            <!-- Modal -->
-            <div id="rules" class="modal fade" role="dialog">
-              <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>Rules</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-
-        <section id="book" class="book">
-        <div class="container">
-
-                <div class="row">
-                <div class="col-md-12 col-lg-12 section-heading scbordergold" >
-
-                        <h2>Book Now</h2>
-
-                        <h3 ></h3>
+            <div class="intro">
+               
+               <div class="container">
+                  
+                  <div class="row" >
+                     <div class="col-sm-4  col-lg-4 " >
                         
-                    
-                    </div>
-        <script type="text/javascript" src="//tallerconcepts.checkfront.com/lib/interface--30.js"></script>
-<!-- CHECKFRONT BOOKING PLUGIN v23-->
-<div id="CHECKFRONT_WIDGET_01"><p id="CHECKFRONT_LOADER" style="background: url('//tallerconcepts.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
-<script>
-new CHECKFRONT.Widget ({
-host: 'tallerconcepts.checkfront.com',
-target: 'CHECKFRONT_WIDGET_01',
-options: 'hidesearch',
-style: 'color: fff',
-provider: 'droplet'
-}).render();
-</script>
-<noscript><a href="https://tallerconcepts.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
+                        <h2 class="tltlil">Need directions?</h2>
+                        <a  href="http://www.google.com/maps/place/2350+Mall+Circle,+Fort+Worth,+TX+76116,+USA" target="_blank" class="btn btn-primary">Click Here</a>
+                        
+                     </div>
+                     <div class="col-sm-4   col-lg-4 " >
+                        
+                        <h2 class="tltlil">What is an escape room?</h2>
+                        <a href="#how" class="btn btn-primary">Click here</a>
+                     </div>
+                     <div class="col-sm-4 col-lg-4 " >
+                       
+                        <h2 class="tltlil">Want to book a spot?</h2>
+                        <a href="#book" class="btn btn-primary">Online</a>
+                        <a href="tel:8173419838" class="btn btn-primary">Call</a>
+                        
+                     </div>
+                  </div>
+               </div>
             </div>
+            <a href="#how">
+               <div class="scroll-down">
+                  <span>
+                  <i class="fa fa-angle-down fa-2x"></i>
+                  </span>
+               </div>
+            </a>
+         </section>-->
+
+        <section id="how" class="bbg">
+            <div class="container">
+                <div class="row">
+                    <h1 style="margin-top: 30px;" class="tlt text-center">(DFW) Dallas Fort Worth escape room</h1>
+                    <div class="col-lg-12 text-center scbordergold how-margin">
+                        <h2>How Our Escape Room Works</h2>
+                        <h4>Your team will have 60 minutes to find the clues, crack the codes, solve the puzzles, complete the challenges and escape! Use cunning deduction and teamwork in an adrenaline filled race to beat the clock!</h4>
+                        <!--<h4>This is real-life escape room games are a type of physical adventure game in which people are locked in a room with other participants and have to use elements of the room to solve a series of puzzles, find clues, and escape the room within a set time limit.</h4>-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="./img/hiw/HIW-1.png" alt="pick a room">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="subheading">Grab some friends</h3>
+                                    </div>
+                                    <!--<div class="timeline-body">
+                                 <p class="">call up your friends and try to assemble a team of 2 - 8 players </p>
+                              </div>-->
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="./img/hiw/HIW-2.png" alt="learn objective">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="subheading">Book online</h3>
+                                    </div>
+                                    <!--<div class="timeline-body">
+                                 <p class="">You can start booking at ayntime by clicking the book now tab in the header</p>
+                              </div>-->
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="./img/hiw/HIW-3.png" alt="search for clues">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="subheading">Show up for your time slot</h3>
+                                    </div>
+                                    <!--<div class="timeline-body">
+                                 <p class="">Try to be 15 mins earlier to read the rules and have team debriefing</p>
+                              </div>-->
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive img-blackbeard" src="./img/hiw/HIW-4.png" alt="dont get caught">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="subheading">Use the clues to solve the puzzles</h3>
+                                    </div>
+                                    <!--<div class="timeline-body">
+                                 <p class="">"It's not that I'm so smart, it's just that I stay with problems longer." -Albert Einstein</p>
+                              </div>-->
+                                </div>
+                            </li>
+                            <li style="height:10px;">
+                                <div class="timeline-image ">
+                                    <img class="img-circle img-responsive" src="./img/hiw/HIW-5.png" alt="escape the room">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="subheading">Escape the room in under 60 minutes</h3>
+                                    </div>
+                                    <!--<div class="timeline-body">
+                                 <p class="">Your team will have 60 minutes to find the clues, crack the codes, solve the puzzles, complete the challenges and escape! Use cunning deduction and teamwork in an adrenaline filled race to beat the clock!</p>
+                              </div>-->
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3>Still not sure how it works?</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qE3GHpz0494" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </section>
-        
+        <section class="rooms" id="rooms">
+            <div class="container">
+                <div class="row" itemscope itemtype="http://schema.org/Event">
+                    <div class="col-md-12 col-lg-12 section-heading scbordergold">
+                        <h2 itemprop="name">Pick a Room</h2>
+                        <h3></h3>
+                    </div>
+                    <div class="col-md-6">
+                        <!--<video itemprop="video" class="video-width" autoplay loop poster="./img/jolly-rogeropt.jpg" >
+                        
+                        <source src="./video/goldcompass.mp4" type="video/mp4">
+                     </video>-->
+                        <video itemprop="video" class="video-width" autoplay loop poster="./img/piratemap.jpg">
+
+                            <source src="./video/piratemap.webm" type="video/mp4">
+                            <source src="./video/piratemap.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 itemprop="name">The Pirate Room</h2>
+                        <p itemprop="description">
+                            "You've snuck into the captain's quarters while the pirates are away. Solve the clues to collect all the pieces of the treasure map and escape before the pirates return and catch you!"
+                        </p>
+
+                        <div class="col-md-6">
+                            <ul class="list-unstyled white room-list-padding">
+                                <li><i class="fa fa-users scgold"></i> Participants: Up to 10 people</li>
+                                <li><i class="fa fa-clock-o scgold"></i> Duration: 60 minutes</li>
+                                <li><i class="fa fa-dollar scgold"></i> Price: $20 a person</li>
+                                <li><i class="fa fa-key scgold"></i> Objective: Find treasure map and escape</li>
+                                <li><i class="fa fa-building-o scgold"></i> Setting: Blackbeard's pirate ship</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <p><i class="fa fa-envelope-o scgold"></i> More rooms Coming soon...<a href="http://eepurl.com/btoS79" target="_blank">Join the Mailing list</a> for updates, offers & rewards</p>
+                            <a itemprop="url" href="#book" class="btn btn-gold btn-lg ">Book Now</a>
+                            <!--<p>Escape Rate - This is the amount of people that make it out before 60 minutes</p>
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped active escape-rate" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" >
+                              <span class="sr-only">45% Complete</span>
+                              45%
+                           </div>
+                        </div>
+                        <p>Difficulty Rate -This is the average people say on the difficulty of the room</p>
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-danger progress-bar-striped active dif-rate" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" >
+                              <span class="sr-only">70% Complete</span>
+                              70%
+                           </div>
+                        </div>-->
+                        </div>
+                        <!--<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+                        <a itemprop="url" href="#book" class="btn btn-gold btn-lg ">Book Now</a>
+                     </div>-->
+                    </div>
+
+                </div>
+                <!--<div class="row">
+                     <div class="col-md-12 col-lg-12">
+                        <h3>More rooms Coming soon...<a href="http://eepurl.com/bp97AD">Join the Mailing list</a> for updates, offers & rewards</h3>
+                     </div>
+               </div>-->
+            </div>
+        </section>
         <section id="faq" class="faq">
-
-    <div class="container">
-
+            <div class="container">
                 <div class="row">
-                <div class="col-md-12 col-lg-12 section-heading scbordergold" >
-
+                    <div class="col-md-12 col-lg-12 section-heading scbordergold">
                         <h2>FAQ</h2>
-
-                        <h3 ></h3>
-                        
-                    
+                        <h3></h3>
                     </div>
-                <div class="faq-List clearfix">
-                <ul>
-                    <li onclick="">
-                        <section>
-                            <div class="wrap">
-                                <p class="question"><img src="img/icons/stopwatch.png"><span>LENGTH OF GAME</span></p>
-                                <p>You have exactly 45 minutes to escape the room.</p>
-                            </div>
-                        </section>
-                    </li>
-                    <li onclick="">
-                        <section>
-                            <div class="wrap">
-                                <p class="question"><img src="img/icons/people.png"><span>NUMBER OF PPL</span></p>
-                                <p>Most of our theme rooms are designed for an optimal group of four or more players. Fewer players are most welcome, but keep in mind it may be more difficult!</p>
-                            </div>
-                        </section>
-                    </li>
-                    <li onclick="">
-                        <section>
-                            <div class="wrap">
-                                <p class="question"><img src="img/icons/heart.png"><span>AGE + HEALTH</span></p>
-                                <p>Some of our rooms do have restricted themes so when it comes to these we do ask that players be in good health and at least 18 years of age.</p>
-                            </div>
-                        </section>
-                    </li>
-                    <li onclick="">
-                        <section>
-                            <div class="wrap">
-                                <p class="question"><img src="img/icons/walk.png"><span>WALK-IN</span></p>
-                                <p>Yes, however we cannot guarantee full availability of our theme rooms. We recommend that you book in advance.</p>
-                            </div>
-                        </section>
-                    </li>
-                    <li onclick="">
-                        <section>
-                            <div class="wrap">
-                                <p class="question"><img src="img/icons/timeclock.png"><span>ARRIVAL TIME</span></p>
-                                <p>We recommend that players arrive at least 5 minutes prior to the booked time for a briefing. If you are late, we will not extend your time and your playing time may be reduced.</p>
-                            </div>
-                        </section>
-                    </li>
-                    <li onclick="">
-                        <section>
-                            <div class="wrap">
-                                <p class="question"><img src="img/icons/list.png"><span>WHAT TO BRING</span></p>
-                                <p>Members, please bring your membership cards for your discount. Otherwise, just bring yourselves!</p>
-                            </div>
-                        </section>
-                    </li>
-                </ul>
-            </div>
-            </div>
-            </div>
-            <!-- Trigger the modal with a button -->
-            <div class="col-lg-12 text-center">
-              <button type="button" class="btn btn-primary btn-lg scgoldback" data-toggle="modal" data-target="#myModal">More FAQ's?</button>
-            </div>
-            <!-- Modal -->
-            <div id="myModal" class="modal fade" role="dialog">
-              <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>FAQ's</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div>
+                    <div class="faq-List clearfix">
+                        <ul>
+                            <li onclick="">
+                                <section>
+                                    <div class="wrap">
+                                        <p class="question"><img src="img/faq/FAQ-1.png" alt="FAQ number of ppl"><span>How many people?</span></p>
+                                        <p>5-10 people per room per session. If you have less than 5 people give us a call and we'll try to make accommodations.</p>
+                                    </div>
+                                </section>
+                            </li>
+                            <li onclick="">
+                                <section>
+                                    <div class="wrap">
+                                        <p class="question"><img src="img/faq/FAQ-3.png" alt="FAQ number of ppl"><span>Special session</span></p>
+                                        <p>Have more than 8 people? Want to participate outside our normal hours? We love special events, give us a call and we'll try to make accomodations</p>
+                                    </div>
+                                </section>
+                            </li>
+                            <li onclick="">
+                                <section>
+                                    <div class="wrap">
+                                        <p class="question"><img src="img/faq/FAQ-2.png" alt="FAQ age and health"><span>Recommended age</span></p>
+                                        <p>We recommend ages 16 and up and all groups must have at least person over 21. No children under 6 will be admitted.</p>
+                                    </div>
+                                </section>
+                            </li>
+                            <li onclick="">
+                                <section>
+                                    <div class="wrap">
+                                        <p class="question"><img src="img/faq/FAQ-5.png" alt="FAQ walk in's"><span>How hard is it?</span></p>
+                                        <p>We provide a challenging but fair experience that requires no special skills other than teamwork. We guarantee you'll have a lot of fun.</p>
+                                    </div>
+                                </section>
+                            </li>
+                            <li onclick="">
+                                <section>
+                                    <div class="wrap">
+                                        <p class="question"><img src="img/faq/FAQ-4.png" alt="FAQ arrival time"><span>When should I arrive?</span></p>
+                                        <p>Please arrive at least 15 minutes early. If you're late and the session behind yours is booked, we must deduct the time from your session.</p>
+                                    </div>
+                                </section>
+                            </li>
+                            <li onclick="">
+                                <section>
+                                    <div class="wrap">
+                                        <p class="question"><img src="img/faq/FAQ-6.png" alt="FAQ what to bring"><span>What if I get stuck?</span></p>
+                                        <p>If you signal us, we'll give you a clue. Above all, we want you to have fun.</p>
+                                    </div>
+                                </section>
+                            </li>
+                            <!-- <li onclick="">
+                           <section>
+                              <div class="wrap">
+                                 <p class="question"><img src="img/icons/stopwatch.png" alt="FAQ Length of game"><span>LENGTH OF GAME</span></p>
+                                 <p>You have exactly 45 minutes to escape the room.</p>
+                              </div>
+                           </section>
+                        </li>
+                        <li onclick="">
+                           <section>
+                              <div class="wrap">
+                                 <p class="question"><img src="img/icons/people.png" alt="FAQ number of ppl"><span>NUMBER OF PPL</span></p>
+                                 <p>Most of our theme rooms are designed for an optimal group of four or more players. Fewer players are most welcome, but keep in mind it may be more difficult!</p>
+                              </div>
+                           </section>
+                        </li>
+                        <li onclick="">
+                           <section>
+                              <div class="wrap">
+                                 <p class="question"><img src="img/icons/heart.png" alt="FAQ age and health"><span>AGE + HEALTH</span></p>
+                                 <p>Some of our rooms do have restricted themes so when it comes to these we do ask that players be in good health and at least 18 years of age.</p>
+                              </div>
+                           </section>
+                        </li>
+                        <li onclick="">
+                           <section>
+                              <div class="wrap">
+                                 <p class="question"><img src="img/icons/walk.png" alt="FAQ walk in's"><span>WALK-IN</span></p>
+                                 <p>Yes, however we cannot guarantee full availability of our theme rooms. We recommend that you book in advance.</p>
+                              </div>
+                           </section>
+                        </li>
+                        <li onclick="">
+                           <section>
+                              <div class="wrap">
+                                 <p class="question"><img src="img/icons/timeclock.png" alt="FAQ arrival time"><span>ARRIVAL TIME</span></p>
+                                 <p>We recommend that players arrive at least 5 minutes prior to the booked time for a briefing. If you are late, we will not extend your time and your playing time may be reduced.</p>
+                              </div>
+                           </section>
+                        </li>
+                        <li onclick="">
+                           <section>
+                              <div class="wrap">
+                                 <p class="question"><img src="img/icons/list.png" alt="FAQ what to bring"><span>WHAT TO BRING</span></p>
+                                 <p>Members, please bring your membership cards for your discount. Otherwise, just bring yourselves!</p>
+                              </div>
+                           </section>
+                        </li> -->
+                        </ul>
+                    </div>
                 </div>
-
-              </div>
             </div>
-
-
         </section>
-        <!-- <section id="trip" class="container-fluid trip">
-            <img style="" src="./img/tripadvisor.jpg" class="img-responsive" alt="Responsive image">
-        </section> -->
-        
-        <section id="contact"class="contact">
-
-
-
-<div class="container">
-            <div class="col-lg-12 text-center">
-                    <h2 class="section-heading scbordergold">Contact Us</h2>
-                    <h3></h3>
-                </div>
-          
-            <div class="row">
-                <div >
-<form action="/Home/SendContactMessage" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" method="post">
-          <div class="col-md-6 col-md-offset-1">
-
-            <div class="alert alert-success" id="divSuccess" style="display: none">
-                <button type="button" class="close" data-dismiss="alert">×</button>
-                Thank you for contacting us!
-            </div>
-            <div class="contact-form" id="contact" role="form">
-                <div class="col-md-6">
-                    <input class="form-control input-box required" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" placeholder="Your Name" type="text" value="">
-                </div>
-                <br>
-                <div class="col-md-6">
-                    <input class="form-control input-box required" data-val="true" data-val-required="The Email field is required." id="Email" name="Email" placeholder="Your Email" type="email" value="">
-                </div>
-                <br>
-                <br>
-                <div class="col-md-12">
-                    <textarea class="form-control textarea-box required" cols="20" data-val="true" data-val-required="The Message field is required." id="Message" name="Message" placeholder="Message" rows="8"></textarea>
-                </div>
-                <div class="col-md-12 text-center">
-                    <button class="btn btn-primary " type="submit" name="submit" onclick="$(this).hide(); return true;" data-style="expand-left">Send Message</button>
-
-                </div>
-                    
-            </div>
-        </div>
-</form></div>
-
-                <div class="col-md-4 text-left">
-                    <p>Please contact us if you have any questions about our Rooms or Prices, we can arrange group bookings, special events and parties. Make reservations online or call us for phone bookings!</p>
-                    <p>
-                        We’re open Monday – Sunday.
-                    </p>
-                    <div class="contact-details">
-                      <ul class="list-unstyled white">
-                          <li><i class="fa fa-map-marker scgold"></i>&nbsp;&nbsp;Sundance Square, Fort Worth, TX 76179</li>
-                          <li><i class="fa fa-phone scgold"></i>&nbsp;&nbsp;+1 844 982-5537</li>
-                          <li><i class="fa fa-envelope scgold"></i>&nbsp;&nbsp;<a class="Email" href="mailto:LasVegas@CountdownEscape.com" style="color:white">Support@TheSecretChambers.com</a></li>
-                      </ul>
+        <section id="book" class="book">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 section-heading scbordergold">
+                        <h2>Book Now</h2>
                     </div>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-compass scgold"></i>&nbsp;&nbsp;<a style="color: white !important" href="http://www.google.com/maps/place/sundance+square,+Fort+Worth,+TX+76179,+USA" target="_blank">Click here for directions</a></li>
-                    </ul>
-                    <a class="btn btn-xl btn-primary" style="margin-bottom:15px;color: white;"href="mailto:support@thesecretchambers.com">Email</a>&nbsp;&nbsp;
-                    <a class="btn btn-xl btn-primary"style=" margin-bottom:15px;  color: white;"href="tel:8449825537">Call</a>
+                    <script type="text/javascript" src="https://bookeo.com/widget.js?a=41551FJ7CEC14E754F5832&waitMobile=true"></script>
+                    <!--<script type="text/javascript" src="//tallerconcepts.checkfront.com/lib/interface--30.js"></script>
+                  <div id="CHECKFRONT_WIDGET_01">
+                     <p id="CHECKFRONT_LOADER" class="checkfront-back">Searching Availability...</p>
+                  </div>
+                  <script>
+                     new CHECKFRONT.Widget ({
+                     host: 'tallerconcepts.checkfront.com',
+                     target: 'CHECKFRONT_WIDGET_01',
+                     options: 'hidesearch',
+                     style: 'color: fff',
+                     provider: 'droplet'
+                     }).render();
+                  </script>-->
+                    <!--<noscript><a href="https://tallerconcepts.checkfront.com/reserve/" class="checkfront-reserve">Continue to Secure Booking System &raquo;</a></noscript>-->
                 </div>
             </div>
-        </div>
+        </section>
 
+        <section id="trip" class="container-fluid trip" style="padding: 30px;">
+            <div class="container">
+                <div class="row">
 
+                    <div class="col-lg-4">
+                    <img class="img-responsive" src="./img/TripAdvisor_logo.png">
+                    </div>
+                    <div class="col-lg-4">
+                        <div id="TA_selfserveprop287" class="TA_selfserveprop">
+                            <ul id="DWmUHQ4Mi" class="TA_links j50lceGX">
+                                <li id="GlGzKfgzhC" class="LFGMlmZy">
+                                    <a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <script src="http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=287&amp;locationId=8694918&amp;lang=en_US&amp;rating=true&amp;nreviews=5&amp;writereviewlink=false&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
 
-
-
-        
-       
-
-  <!-- </div>
-  <hr class="featurette-divider hidden-lg">
-  <div class="col-lg-5 col-md-push-1">
-    <address>
-    <h3>Office Location</h3>
-    <p class="lead"><a href="https://www.google.com/maps/preview?ie=UTF-8&q=The+Pentagon&fb=1&gl=us&hq=1400+Defense+Pentagon+Washington,+DC+20301-1400&cid=12647181945379443503&ei=qmYfU4H8LoL2oATa0IHIBg&ved=0CKwBEPwSMAo&safe=on">The Pentagon<br>
-Washington, DC 20301</a><br>
-      Phone: XXX-XXX-XXXX<br>
-      Fax: XXX-XXX-YYYY</p>
-    </address>
-    <a class="btn btn-xl btn-primary" style="margin-bottom:15px; font-size:25px;color: white;"href="mailto:support@thesecretchambers.com">Email</a><br>
-    <a class="btn btn-xl btn-primary"style=" margin-bottom:15px; font-size:25px; color: white;"href="tel:8449825537">Call</a>
-  </div>
+                    </div>
+                    <div class="col-lg-4">
+                    <div id="TA_cdswritereviewnew343" class="TA_cdswritereviewnew">
+<ul id="Swo2ELteE" class="TA_links kBJyX7">
+<li id="h0WjSJmHdc" class="gxWomxwo">
+<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/medium-logo-29834-2.png" alt="TripAdvisor"/></a>
+</li>
+</ul>
 </div>
+<script src="http://www.jscache.com/wejs?wtype=cdswritereviewnew&amp;uniq=343&amp;locationId=8694918&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
 
-</div> -->
-    </section>
-
-    <footer id="footer" >
-        <div class="container">
-            <div class="row">
-
-                <div class="col-sm-12">
-
-                    
-                    <p class="copyright">
-                        © 2015 The Secret Chambers | Development: <a href="http://tallerconcepts.com/">Taller Concepts</a> &amp; <a href="http://tallercloud.com/">Taller Cloud</a>
-                    </p>
-
+                    </div>
                 </div>
-                <div class="col-md-12">
-                    <ul class="social-network social-circle">
-                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>       
-        </div>
-            </div><!-- .row -->
-        </div><!-- .container -->
+            </div>
+            <!-- <img style="" src="./img/tripadvisor.jpg" class="img-responsive" alt="Responsive image"> -->
+                    
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center scbordergold">
+                        <h2 class="section-heading">Contact Us</h2>
+                        <h3></h3>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <!--<div >
+                     <form action="http://formspree.io/support@thesecretchambers.com" method="POST">
+                        <div class="col-md-6 col-md-offset-1">
+                           <div class="contact-form" role="form" >
+                              <div class="col-md-6">
+                                 <input class="form-control input-box required" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" placeholder="Your Name" type="text" value="">
+                              </div>
+                              <div class="col-md-6">
+                                 <input class="form-control input-box required" data-val="true" data-val-required="The Email field is required." id="Email" name="Email" placeholder="Your Email" type="email" value="">
+                              </div>
+                              <br>
+                              <br>
+                              <div class="col-md-12">
+                                 <textarea class="form-control textarea-box required" cols="20" data-val="true" data-val-required="The Message field is required." id="Message" name="Message" placeholder="Message" rows="8"></textarea>
+                              </div>
+                              <div class="col-md-12 text-center">
+                                 <button class="btn btn-primary " type="submit" name="submit" onclick="$(this).hide(); return true;" data-style="expand-left">Send Message</button>
+                                 <br>
+                                 <br>
+                              </div>
+                           </div>
+                        </div>
+                     </form>
+                  </div>-->
+                    <div class="col-md-8">
+                        <form action="http://formspree.io/info@thesecretchambers.com" method="POST" id="contact-form" role="form">
+                            <div class="ajax-hidden">
+                                <div class="form-group wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
+                                    <label class="sr-only" for="c_name">Name</label>
+                                    <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+                                </div>
 
-    </footer>
-<section>
- 
-  <div id="googleMap" style="width:100%;height:500px;"></div>
+                                <div class="form-group wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; -webkit-animation-delay: 0.1s; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
+                                    <label class="sr-only" for="c_email">Email</label>
+                                    <input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+                                </div>
 
-    <script
-src="http://maps.googleapis.com/maps/api/js">
-</script>
+                                <div class="form-group wow fadeInUp animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; -webkit-animation-delay: 0.2s; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
+                                    <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
+                                </div>
 
-<script>
-function initialize() {
-  var mapProp = {
-    center:new google.maps.LatLng(32.725409,-97.32085),
-    zoom:10,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
-</section>
-
-
-
+                                <button type="submit" class="btn btn-lg btn-block btn-primary" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; -webkit-animation-delay: 0.3s; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">Send Message</button>
+                            </div>
+                            <div class="ajax-response"></div>
+                        </form>
+                    </div>
+                    <div class="col-md-4 text-left">
+                        <p>Please contact us if you have any questions about our Rooms or Prices, we can arrange group bookings, special events and parties. Make reservations online or call us for phone bookings!</p>
+                        <div class="contact-details">
+                            <ul class="list-unstyled white">
+                                <li><i class="fa fa-map-marker scgold"></i>&nbsp;&nbsp;2350 Mall Circle, Fort Worth, TX 76116</li>
+                                <li><i class="fa fa-phone scgold"></i>&nbsp;&nbsp;+1 (888) 669-9998</li>
+                                <li><i class="fa fa-envelope scgold"></i>&nbsp;&nbsp;<a class="Email white" href="mailto:Support@TheSecretChambers.com">Support@TheSecretChambers.com</a></li>
+                            </ul>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-compass scgold"></i>&nbsp;&nbsp;<a class="white" href="http://www.google.com/maps/place/2350+Mall+Circle,+Fort+Worth,+TX+76116,+USA" target="_blank">Click here for directions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="contact">
+            <div id="googleMap" style="width: 50%;  height: 300px;  margin-left: 25%;"></div>
+            <script src="http://maps.googleapis.com/maps/api/js"></script>
+            
+            </section> -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="copyright">
+                            © 2015 The Secret Chambers | Developed: <a target="_blank" href="http://tallerconcepts.com/">Taller Concepts</a> &amp; Hosted: <a target="_blank" href="http://www.tallerhost.com/">Taller host</a>
+                        </p>
+                    </div>
+                    <div class="col-md-12">
+                        <ul class="social-network social-circle">
+                            <!-- <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li> -->
+                            <li><a target="_blank" href="https://www.facebook.com/pages/The-Secret-Chambers/1599629236962664?fref=ts&amp;ref=br_tf" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://twitter.com/TSCEscapeRoom" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://plus.google.com/u/0/101908909926948570436" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/channel/UC5Ze52Q-mPHVQtpyur8glyA" class="icoyoutube" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                            <li>
+                                <div id="yelp-biz-badge-rrc-BdYQ0vcjyInliCs5GOxZ7A"><a href="http://yelp.com/biz/the-secret-chambers-escape-challenge-fort-worth">Check out The Secret Chambers Escape Challenge on Yelp</a></div><script>(function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rrc-BdYQ0vcjyInliCs5GOxZ7A";g.src = "http://yelp.com/biz_badge_js/en_US/rrc/BdYQ0vcjyInliCs5GOxZ7A.js";s.parentNode.insertBefore(g, s);}(document, 'script'));</script>
+                            </li>
+                            <li>
+                                <div id="TA_cdsratingsonlynarrow396" class="TA_cdsratingsonlynarrow">
+                                <ul id="uz0LayFq5" class="TA_links agYefc">
+                                <li id="mWH22Iw" class="2k1a3jw">
+                                <a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+                                </li>
+                                </ul>
+                                </div>
+                                <script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=396&amp;locationId=8694918&amp;lang=en_US&amp;border=true&amp;shadow=true&amp;backgroundColor=white&amp;display_version=2"></script>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container -->
+        </footer>
     </div>
     <!-- /#wrapper -->
-
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-resource.min.js"></script>
+    <script type="text/javascript">
+        var myApp = angular.module('myApp', ['ngResource']);
+        myApp.controller('secretCtrl', function($scope, $location) {
 
-    <!-- Bootstrap JavaScript -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+            $scope.myTrigger = function(arg){
+                alert(arg + ' clicked');
+            }
+            
 
-    <!-- Custom JavaScript -->
-    <script src="js/custom.js"></script>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        }).directive('rwdimgmap', function ($window) {
+        return{
+            restrict: 'CA',
+            link: function (scope, element, attrs) {
 
-    ga('create', 'UA-63551693-1', 'auto');
-    ga('send', 'pageview');
+                var w = attrs.width;
+                var h = attrs.height;
 
+                function resize() {
+                    elem = angular.element(element)[0];
+
+                    if (!w || !h) {
+                        var temp = new Image();
+                        temp.src = elem.src;
+                        if (!w)
+                            w = temp.width;
+                        if (!h)
+                            h = temp.height;
+                    }
+
+                    var wPercent = elem.width / 100,
+                        hPercent = elem.height / 100,
+                        mapname = attrs.usemap.replace('#', ''),
+                        areas = angular.element(document.querySelector('map[name="' + mapname + '"]')).find('area');
+
+                    for (var i = 0; i < areas.length; i++) {
+                        var area = angular.element(areas[i]);
+
+                        if (!area.data('coords')) {
+                            area.data('coords', area.attr('coords'));
+                        }
+
+                        var coords = area.data('coords').split(','),
+                            coordsPercent = new Array(coords.length);
+                        coordsPercent = new Array(coords.length);
+
+                        for (var j = 0; j < coordsPercent.length; ++j) {
+                            if (j % 2 === 0) {
+                                coordsPercent[j] = parseInt(((coords[j] / w) * 100) * wPercent);
+                            } else {
+                                coordsPercent[j] = parseInt(((coords[j] / h) * 100) * hPercent);
+                            }
+                        }
+                        area.attr('coords', coordsPercent.toString());
+                    }
+                }
+
+                resize();
+                angular.element($window).bind("resize", function () {
+                    resize();
+                });
+
+            }
+        };
+    });
     </script>
+    <script src="http://cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js"
+        type="text/javascript"></script>
+        <script type="text/javascript">
+        cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
+          alert('Voilà!');
+        });
+        </script>
+    <script src="http://thesecretchambers.com/js/secretchambers.min.js" async></script>
 </body>
 
 </html>
