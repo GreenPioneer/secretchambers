@@ -74,6 +74,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="alternate" href="http://thesecretchambers.com" hreflang="en-us" />
     <link href="http://thesecretchambers.com/css/secretchambers.min.css" rel="stylesheet">
+    <link href="../css/benchanges.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file://
@@ -121,9 +122,11 @@ Any extra keywords than we use already besides Cthulhu: Necronomicon, Lovecraft,
 				          </ul>
 				        </li>
                         <li><a class="scgold" href="http://thesecretchambers.com/#faq">FAQ</a></li>
-                        <li><a href="http://thesecretchambers.com/book/now" class="activebtn">Book Now <i class="fa fa-bookmark-o"></i></a></li>
+                        <li><a class="scgold" href="http://thesecretchambers.com/book/now" class="btn">Book Now <i class="fa fa-bookmark-o"></i></a></li>
                         <!-- <li><a href="#trip">Trip Advisor</a></li> -->
-
+                        <li>
+                            <a target="_blank" class="scgold" href="https://www.google.com/maps/dir//The+Secret+Chambers,+2350+Mall+Circle,+Fort+Worth,+TX+76116/">Get Directions</a>
+                        </li>
                         <li><a class="scgold" href="#contact">Contact Us</a></li>
                         <!--<li><a href="tel:8886699998">888-669-9998</a></li>-->
                         
@@ -135,8 +138,8 @@ Any extra keywords than we use already besides Cthulhu: Necronomicon, Lovecraft,
     </header>
     <div id="wrapper" class="toggled">
         <video autoplay loop  id="background">
-             <source src="http://thesecretchambers.com/video/basiccthuhlu.webm" type="video/webm"> 
-            <source src="http://thesecretchambers.com/video/basiccthuhlu.mp4" type="video/mp4">
+             <!-- <source src="http://thesecretchambers.com/video/basiccthuhlu.webm" type="video/webm">  -->
+            <source src="../video/cthuhlu.mp4" type="video/mp4">
          </video>
         <!-- <img src="http://thesecretchambers.com/img/cthuhlu/main.jpg" style="width:100%;height:100%;position:absolute;"> -->
         <div class="scroll-up">
@@ -156,7 +159,7 @@ Any extra keywords than we use already besides Cthulhu: Necronomicon, Lovecraft,
                 </div>
             </div>
             
-            <a href="#how">
+            <a href="#rooms">
                 <div class="scroll-down">
                     <span>
                   <i class="fa fa-angle-down fa-2x"></i>
@@ -174,32 +177,75 @@ Any extra keywords than we use already besides Cthulhu: Necronomicon, Lovecraft,
                         <h2 itemprop="name">Cthulhu</h2>
                         <h3></h3>
                     </div>
-                    <div class="col-md-6">
-                        <img src="http://thesecretchambers.com/img/cthuhlu/main.jpg">
-                        <!-- <video itemprop="video" class="video-width" autoplay loop poster="http://thesecretchambers.com/img/cthuhlu/main.jpg">
-                            <source src="http://thesecretchambers.com/video/cthuhlu.webm" type="video/mp4">
-                            <source src="http://thesecretchambers.com/video/cthuhlu.mp4" type="video/mp4">
-                        </video> -->
+                    <div class="col-md-6 room-image">
+                        <img src="../img/Cthulhu---Black-Gold.png" alt="Cthulhu">
                     </div>
                     <div class="col-md-6">
                         <h2 itemprop="name">The Cthulhu Room</h2>
                         <p itemprop="description">
-                            "You've snuck into the Cthulhu's quarters while the Cthulhu are away. Solve the clues to collect all the pieces of the treasure map and escape before the Cthulhu return and catch you!"
+                            You've snuck into the Cthulhu's quarters while the Cthulhu are away. Solve the clues to collect all the pieces of the treasure map and escape before the Cthulhu return and catch you!
                         </p>
-
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <ul class="list-unstyled white room-list-padding">
-                                <li><i class="fa fa-users scgold"></i> Participants: Up to 8 people</li>
-                                <li><i class="fa fa-clock-o scgold"></i> Duration: 60 minutes</li>
-                                <li><i class="fa fa-dollar scgold"></i> Price: $20 a person</li>
-                                <li><i class="fa fa-key scgold"></i> Objective: Find treasure map and escape</li>
-                                <li><i class="fa fa-building-o scgold"></i> Setting: Cthulhu</li>
+                                <li><i class="fa fa-users scgold" style="width:20px;"></i> Participants: Up to 8 people</li>
+                                <li><i class="fa fa-clock-o scgold" style="width:20px;" ></i> Duration: 60 minutes</li>
+                                <li><i class="fa fa-dollar scgold" style="width:20px;"></i> Price: $20 a person</li>
+                                <li><i class="fa fa-key scgold" style="width:20px;"></i> Objective: Find treasure map and escape</li>
+                                <li><i class="fa fa-building-o scgold" style="width:20px;"></i> Setting: Cthulhu</li>
+                                <p/>
                             </ul>
                         </div>
-                        <div class="col-md-6">
-                            <p><i class="fa fa-envelope-o scgold"></i> More rooms Coming soon...<a href="http://eepurl.com/btoS79" target="_blank">Join the Mailing list</a> for updates, offers & rewards</p>
-                            <a itemprop="url" href="#book" class="btn btn-gold btn-lg ">Book Now</a>
-                          
+                        <div class="col-md-12">
+                            <div class="mailingList">
+                            <!-- <a style="float:left;" href="http://eepurl.com/btoS79" target="_blank">Join the Mailing list </a><p style="color:white; float:left; padding-left:5px;"> for updates, offers & rewards</p> -->
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                             <div class="bookNow"><a itemprop="url" href="#book" class="btn btn-gold btn-lg" style="margin-top:20px;">Book Now</a></div>
+                        </div>
+                    </div>
+                     <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <h3><a style="float:left;" href="http://eepurl.com/btoS79" target="_blank">Join the Mailing list </a>  &nbsp;for updates, offers & rewards</h3>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                            <div class="col-xs-6 col-sm-3">
+                                <a href="#" class="thumbnail">
+                                  <img src="../img/DSC_6783.JPG" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-3">
+                                <a href="#" class="thumbnail">
+                                  <img src="../img/DSC_6811.JPG" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-3">
+                                <a href="#" class="thumbnail">
+                                  <img src="../img/DSC_6820.JPG" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-3">
+                                <a href="#" class="thumbnail">
+                                  <img src="../img/DSC_6821.JPG" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-3">
+                                <a href="#" class="thumbnail">
+                                  <img src="../img/DSC_6830.JPG" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-3">
+                                <a href="#" class="thumbnail">
+                                  <img src="../img/DSC_6851.JPG" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-3">
+                                <a href="#" class="thumbnail">
+                                  <img src="../img/DSC_6864.JPG" alt="...">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
