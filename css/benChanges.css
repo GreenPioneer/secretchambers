@@ -61,6 +61,11 @@ hr {
     background-position: top;
 }
 
+.imgcentered {
+    text-align: center;
+    margin: auto;
+}
+
 #trip{
     margin-top: 0px;
     background: url("../img/blackBackground2.jpg");
@@ -96,6 +101,14 @@ hr {
 
 .sectionBreak {
     height: 30px;
+}
+
+.col-md-12.book {
+    background: none;
+}
+
+a.dropdown-toggle {
+    color: #B5985A;
 }
 
 /* Booking Section */
@@ -146,6 +159,25 @@ a.dropdown-toggle.scgold {
     right: -55px;
     
     z-index:1032;
+}
+
+/*   Carousel */
+
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    display: none;
+}
+
+i.fa.fa-arrow-circle-o-left {
+    position: absolute;
+    top: 50%;
+}
+
+i.fa.fa-arrow-circle-o-right {
+    position: absolute;
+    top: 50%;
 }
 
 
@@ -354,6 +386,17 @@ h3.subheading {
     font-size: 20px;
 }
 
+.col-md-12.mailing {
+    float: left;
+    width: 100%;
+}
+
+.col-md-12.book {
+    float: left;
+    margin-top: 60px;
+    background: none;
+}
+
 
 }
 
@@ -450,6 +493,24 @@ h3.subheading {
     width: 90px;
     height: 90px;
     margin-left: -45px;
+}
+
+i.fa.fa-arrow-circle-o-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+
+.col-md-12.mailing {
+    float: left;
+    width: 100%;
+}
+
+.col-md-12.book {
+    float: left;
+    margin-top: 60px;
+    background: none;
 }
 
 
@@ -575,6 +636,17 @@ img.img-tripadvisor {
 iframe.youtube-video {
 width: 480px;
  height:315px;
+}
+
+.col-md-12.mailing {
+    float: left;
+    width: 100%;
+}
+
+.col-md-12.book {
+    float: left;
+    margin-top: 60px;
+    background: none;
 }
 
 
