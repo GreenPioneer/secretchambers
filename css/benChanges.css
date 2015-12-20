@@ -397,6 +397,11 @@ h3.subheading {
     background: none;
 }
 
+.bookNow {
+    float: left;
+    margin-top: 0px;
+}
+
 
 }
 
@@ -511,6 +516,11 @@ i.fa.fa-arrow-circle-o-right {
     float: left;
     margin-top: 60px;
     background: none;
+}
+
+.bookNow {
+    float: right;
+    margin-top: 0px;
 }
 
 
@@ -649,6 +659,11 @@ width: 480px;
     background: none;
 }
 
+.bookNow {
+    float: right;
+    margin-top: 0px;
+}
+
 
 
 }
@@ -773,8 +788,67 @@ h3.subheading {
 }
 
 .bookNow {
-    float: right;
-    margin-top: -70px;
+    float: left;
+    margin-top: 0px;
+}
+
+.col-lg-12.text-center.scbordergold.why-margin {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+}
+
+.col-lg-12.text-center.scbordergold.why-margin {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    background-size: contain;
+}
+
+.bbg {
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+}
+
+ul.list-unstyled.white.room-list-padding {
+    text-align: left;
+}
+
+.section-heading {
+    margin: 0px 0 45px;
+    text-align: center;
+}
+
+.col-lg-12.text-center.scbordergold.why-margin {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.book {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+    background-position: center;
+}
+
+.col-lg-12.text-center.scbordergold.why-margin {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    background-size: contain;
+    background-position: center;
+}
+
+#why {
+    margin-top: 130px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+    background-position: bottom;
 }
 
 }
