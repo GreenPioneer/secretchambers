@@ -294,6 +294,67 @@ h3.subheading {
     font-size: 24px;
 }
 
+.bbg {
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+}
+
+.faq {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+#why {
+    margin-top: 130px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#trip {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.book {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: top;
+}
+
+#trip {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
 
 }
 
@@ -402,6 +463,23 @@ h3.subheading {
     margin-top: 0px;
 }
 
+.faq {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+    background-position: center;
+}
+
+#trip {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+    background-position: center;
+}
 
 }
 
@@ -521,6 +599,24 @@ i.fa.fa-arrow-circle-o-right {
 .bookNow {
     float: right;
     margin-top: 0px;
+}
+
+#trip {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+    background-position: top;
+}
+
+.contact {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+    background-position: top;
 }
 
 
@@ -662,6 +758,32 @@ width: 480px;
 .bookNow {
     float: right;
     margin-top: 0px;
+}
+
+#why {
+    margin-top: 130px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.bbg {
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+    background-position: center;
+}
+
+.contact {
+    margin-top: 0px;
+    background: url("../img/blackBackground2.jpg");
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
+    background-position: top;
 }
 
 
