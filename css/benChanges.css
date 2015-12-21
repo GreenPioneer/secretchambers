@@ -872,6 +872,11 @@ width: 400px;
  height:315px;
 }
 
+.timeline>li.timeline-inverted>.timeline-panel {
+    padding: 0 90px 0px 0px;
+    float: left;
+}
+
 #yelp-biz-badge-rrc-BdYQ0vcjyInliCs5GOxZ7A {
     float: left;
 }
@@ -978,6 +983,12 @@ ul.list-unstyled.white.room-list-padding {
     padding-bottom: 50px;
     background-size: contain;
     background-position: bottom;
+}
+
+.rwdimgmap {
+    background-position: top;
+    padding-top: 70px;
+    min-height: 500px;
 }
 
 }
