@@ -384,8 +384,70 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-12 section-heading scbordergold">
                         <h2>Book Now</h2>
-                        <h4>How to Book</h4>
-                        <div class="col-md-3 ">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <a data-toggle="modal" data-target="#hours" class="btn btn-lg btn-block btn-primary" >Hours</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a data-toggle="modal" data-target="#schedule" class="btn btn-lg btn-block btn-primary" >Schedule</a>
+                            </div>
+                        </div>
+
+
+Schedule - 
+        ————  2 images with 2 text fields with them
+        1.)
+        2.)
+
+Hours - Our hours are based on bookings. If you see an open time slot that means we’re open to be booked.
+        ————1 image
+
+
+
+                        <!-- Hours -->
+                        <div class="modal fade " id="hours" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Hours</h4>
+                              </div>
+                              
+                                <div class="col-md-12">
+                                    <h4>Our hours are based on bookings. If you see a open time slot that means were open to be booked.</h4>
+                                    <img class="img-responsive"  src="img/booking/time.png">
+                                </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Hours -->
+                        <div class="modal fade" id="schedule" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Schedule</h4>
+                              </div>
+                                <h4>View our available slots for any day by selecting a room below and clicking on a calendar day</h4>
+                                <div class="col-md-6 ">
+                                    <img class="img-responsive"src="img/booking/room.png">
+                                    <p> Select the room you wish to escape. * Cthulhu or Pirate Room</p>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <img class="img-responsive" src="img/booking/time.png">
+                                    <p>Then select the day and time you want to book. * Note that if their are no times that means we’re booked out for that date</p>
+                                </div>
+                              
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <div class="col-md-3 ">
                             <img class="img-responsive" style="height:125px;" src="img/booking/room.png">
                             <p>Select the room you wish to escape. * Cthulhu or Pirate Room</p>
                         </div>
@@ -400,7 +462,7 @@
                         <div class="col-md-3 ">
                             <img class="img-responsive" style="height:125px;" src="img/booking/checkout.png">
                             <p>Last step is to checkout and pay for the room</p>
-                        </div>
+                        </div> -->
                     </div>
                     <script type="text/javascript" src="https://bookeo.com/widget.js?a=41551FJ7CEC14E754F5832&waitMobile=true"></script>
                 </div>
